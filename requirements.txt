@@ -1,0 +1,9 @@
+openai==0.26.5
+requests==2.28.2
+python-dotenv==0.21.1
+Flask==2.2.3
+APScheduler==3.7.0
+fastapi
+opencc
+uvicorn
+pytz
