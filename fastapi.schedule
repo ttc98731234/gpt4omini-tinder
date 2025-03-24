@@ -1,0 +1,13 @@
+zimport schedule
+import time
+
+def auto_swipe():
+    print("自動滑動開始...")
+    # 在這裡實現滑動邏輯
+
+# 設置每日排程
+schedule.every().day.at("09:00").do(auto_swipe)
+
+while True:
+    schedule.run_pending()
+    time.sleep(1)
